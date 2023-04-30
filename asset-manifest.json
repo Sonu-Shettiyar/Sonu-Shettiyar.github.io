@@ -1,16 +1,40 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.51bdbf96.js",
+    "main.css": "/static/css/main.9f5fe569.css",
+    "main.js": "/static/js/main.48409667.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/beautyBliss_2.png": "/static/media/beautyBliss_2.ab886112338af9bb55c6.png",
+    "static/media/LaneAttire_4.png": "/static/media/LaneAttire_4.44c866260cae7edaa40a.png",
+    "static/media/beautyBliss_4.png": "/static/media/beautyBliss_4.5e9b84fa91b411bc042e.png",
+    "static/media/beautyBliss_5.png": "/static/media/beautyBliss_5.d8f60f3502ed897eca94.png",
+    "static/media/beautyBliss_1.png": "/static/media/beautyBliss_1.cb438e66a3c7119a9e8d.png",
+    "static/media/beautyBliss_3.png": "/static/media/beautyBliss_3.7477fe0beef662b170a2.png",
+    "static/media/new_profile.jpg": "/static/media/new_profile.f4b0de45832ef0b4090b.jpg",
+    "static/media/LaneAttire_2.png": "/static/media/LaneAttire_2.234b8b9f2607a04c0e0b.png",
+    "static/media/LaneAttire_1.png": "/static/media/LaneAttire_1.a6ac7b1e61efa5628f23.png",
+    "static/media/LaneAttire_5.png": "/static/media/LaneAttire_5.ebdc65dceef871fcfb4a.png",
+    "static/media/Bigmart_3.png": "/static/media/Bigmart_3.d3aaf73e3885dfd0d0f5.png",
+    "static/media/Bigmart_4.png": "/static/media/Bigmart_4.c0bfde0246d7ed7e4543.png",
+    "static/media/Bigmart_2.png": "/static/media/Bigmart_2.8ce4acd8fa42b1335150.png",
+    "static/media/Bigmart_5.png": "/static/media/Bigmart_5.6f4d7fb3f7af71a78f94.png",
+    "static/media/LaneAttire_3.png": "/static/media/LaneAttire_3.009a5c2caa28b8974115.png",
+    "static/media/Bigmart_6.png": "/static/media/Bigmart_6.15daa461708d497556c7.png",
+    "static/media/Bigmart_1.png": "/static/media/Bigmart_1.0993d80f5c4638be04b0.png",
+    "static/media/node_logo.png": "/static/media/node_logo.cf2c77c6948422bf5284.png",
+    "static/media/next_logo.png": "/static/media/next_logo.8e6564e8357fac465825.png",
+    "static/media/react_logo.png": "/static/media/react_logo.f3e576ba08e6be927148.png",
+    "static/media/html_logo.png": "/static/media/html_logo.66d92c286ced98e2d26e.png",
+    "static/media/redux_logo.png": "/static/media/redux_logo.492ed7d54dd2352c5786.png",
+    "static/media/mongobd_logo.png": "/static/media/mongobd_logo.79f6eddb56f12605cf57.png",
+    "static/media/javascript_logo.png": "/static/media/javascript_logo.b593320c32e34a23f324.png",
+    "static/media/protfolio-icon2.png": "/static/media/protfolio-icon2.f30e3adeb94737fd0f9c.png",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.51bdbf96.js.map": "/static/js/main.51bdbf96.js.map",
+    "main.9f5fe569.css.map": "/static/css/main.9f5fe569.css.map",
+    "main.48409667.js.map": "/static/js/main.48409667.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.51bdbf96.js"
+    "static/css/main.9f5fe569.css",
+    "static/js/main.48409667.js"
   ]
 }
