@@ -1,0 +1,29 @@
+.hover-underline-animation {
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    /* color: #0087ca; */
+}
+
+.hover-underline-animation:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #0087ca;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.hover-underline-animation:hover:after {
+    width: 100%;
+    left: 0;
+}
