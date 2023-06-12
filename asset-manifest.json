@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.9f5fe569.css",
-    "main.js": "/static/js/main.d1c39f6d.js",
+    "main.js": "/static/js/main.944c999b.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/beautyBliss_2.png": "/static/media/beautyBliss_2.ab886112338af9bb55c6.png",
     "static/media/LaneAttire_4.png": "/static/media/LaneAttire_4.44c866260cae7edaa40a.png",
@@ -16,10 +16,14 @@
     "static/media/Bigmart_3.png": "/static/media/Bigmart_3.d3aaf73e3885dfd0d0f5.png",
     "static/media/Bigmart_4.png": "/static/media/Bigmart_4.c0bfde0246d7ed7e4543.png",
     "static/media/Bigmart_2.png": "/static/media/Bigmart_2.8ce4acd8fa42b1335150.png",
+    "static/media/questyme_4.png": "/static/media/questyme_4.bf9f52f481beb7871999.png",
+    "static/media/questyme_3.png": "/static/media/questyme_3.150b012f35fb1e1b548d.png",
     "static/media/Bigmart_5.png": "/static/media/Bigmart_5.6f4d7fb3f7af71a78f94.png",
+    "static/media/questyme_2.png": "/static/media/questyme_2.94f7d8e1e3f47679d3aa.png",
     "static/media/LaneAttire_3.png": "/static/media/LaneAttire_3.009a5c2caa28b8974115.png",
     "static/media/Bigmart_6.png": "/static/media/Bigmart_6.15daa461708d497556c7.png",
     "static/media/Bigmart_1.png": "/static/media/Bigmart_1.0993d80f5c4638be04b0.png",
+    "static/media/questyme_1.png": "/static/media/questyme_1.997d66bf9687811615fd.png",
     "static/media/node_logo.png": "/static/media/node_logo.cf2c77c6948422bf5284.png",
     "static/media/next_logo.png": "/static/media/next_logo.8e6564e8357fac465825.png",
     "static/media/react_logo.png": "/static/media/react_logo.f3e576ba08e6be927148.png",
@@ -30,11 +34,11 @@
     "static/media/protfolio-icon2.png": "/static/media/protfolio-icon2.f30e3adeb94737fd0f9c.png",
     "index.html": "/index.html",
     "main.9f5fe569.css.map": "/static/css/main.9f5fe569.css.map",
-    "main.d1c39f6d.js.map": "/static/js/main.d1c39f6d.js.map",
+    "main.944c999b.js.map": "/static/js/main.944c999b.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9f5fe569.css",
-    "static/js/main.d1c39f6d.js"
+    "static/js/main.944c999b.js"
   ]
 }
