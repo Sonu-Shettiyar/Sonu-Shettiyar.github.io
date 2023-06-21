@@ -20,8 +20,13 @@ import Bigmart_3 from "../images/Bigmart_3.png";
 import Bigmart_4 from "../images/Bigmart_4.png";
 import Bigmart_5 from "../images/Bigmart_5.png";
 import Bigmart_6 from "../images/Bigmart_6.png";
+import questyme_1 from "../images/questyme_1.png"
+import questyme_2 from "../images/questyme_2.png"
+import questyme_3 from "../images/questyme_3.png"
+import questyme_4 from "../images/questyme_4.png"
 const Projects = () => {
-  const LaneAttire = [LaneAttire_1, LaneAttire_2,LaneAttire_3,LaneAttire_4,LaneAttire_5];
+  const LaneAttire = [LaneAttire_1, LaneAttire_2, LaneAttire_3, LaneAttire_4, LaneAttire_5];
+  const Questyme =[questyme_2,questyme_4,questyme_3,questyme_1]
   const BeautyBliss = [
     beautyBliss_1,
     beautyBliss_2,
@@ -66,24 +71,24 @@ const Projects = () => {
         textDecor={"underline"}>Projects</Heading>
       </Center>
       <ProjectCards
-        direction={"row"}
-        deployedLink={"https://idyllic-hummingbird-265d79.netlify.app/"}
-        image={LaneAttire}
-        title={"LaneAttire"}
-        subTitle={"LimerRoad Clone"}
-        GithubLink={"https://github.com/Sonu-Shettiyar/reach-value-9973"}
+        direction={"row-reverse"}
+        deployedLink={"https://clever-horse-e88e52.netlify.app/"}
+        image={Questyme}
+        title={"QuesTyme"}
+        subTitle={"Interview Scheduler site"}
+        presentationLink={"https://github.com/Sonu-Shettiyar/QuesTyme_Clone"}
         features={[
-          "API-based Sign in and Sign-up for users",
-          "Different sections for Men and Women",
-          "Category and price-based filtering",
-          "Dynamic Single Product route with proper product description",
-          "Suggest's relevant products in product details",
-          "Need Authentication for complete purchases",
+          "Interview Scheduling",
+          "Enhanced Card UI",
+          "Category and Date-based filtering",
+          "Forget Password feature for recovering account access",
+          "Single Click Join meet feature",
+          "Excellent responsiveness throughout the site"
         ]}
         description={
-          "Lane-Attire is an online fashion store that provides high-quality fashion accessories for both men and women at affordable prices. This is an individual project, completed within a period of five days. It bears similarity to the fashion store Limeroad, clone of the aforementioned brand"
+          "QuesTyme is a top-notch interview scheduler application with features for interview scheduling and one-on-one sessions. It is a special project assigned to a team of six selected members by Masai School."
         }
-        techStack={["React.js", "Chakra UI", "MockApi","ContextApi"]}
+        techStack={["React.js", "Chakra UI", "Typescript"]}
       />
       <ProjectCards
         direction={"row"}
@@ -123,7 +128,7 @@ const Projects = () => {
         ]}
         description={
           
-          // "BeautyBliss is clone of SugarCosmetics an e-commerce site which offers premium beauty products like lipstick, Eyeliners, and many more products with the latest innovative grooming products for womens.This is an collabrative project of 4 members built in a period of 5 days"
+
           "BeautyBliss is an e-commerce platform offering a range of premium beauty products, including lipsticks, eyeliners, and other innovative grooming items for women. The website was developed as a collaborative project by a team of four members and was completed within a five-day timeframe. it is a clone of SugarCosmetics."
         }
         techStack={["HTML", "CSS", "JavaScript", "MockAPI","BootStrap"]}
@@ -153,14 +158,16 @@ const Projects = () => {
       <Show breakpoint="(max-width: 993px)">
         <MediumProjectCard
           image={LaneAttire}
-          deployedLink={"https://idyllic-hummingbird-265d79.netlify.app/"}
-          GithubLink={"https://github.com/Sonu-Shettiyar/reach-value-9973"}
-          title={"LaneAttire"}
-          subTitle={"LimerRoad Clone"}
+          deployedLink={"https://clever-horse-e88e52.netlify.app/"}
+        // presentationLink={"https://github.com/Sonu-Shettiyar/reach-value-9973"}
+
+          GithubLink={"https://github.com/Sonu-Shettiyar/QuesTyme_Clone"}
+          title={"Questyme"}
+          subTitle={"Interview Scheduler"}
           description={
-            "Lane-Attire is an online fashion store that provides high-quality fashion accessories for both men and women at affordable prices. This is an individual project, completed within a period of five days. It bears similarity to the fashion store Limeroad, clone of the aforementioned brand"
+            "QuesTyme is a top-notch interview scheduler application with features for interview scheduling and one-on-one sessions. It is a special project assigned to a team of six selected members by Masai School."
           }
-          techStack={["React.js", "Chakra UI","MockApi"]}
+          techStack={["React.js", "Chakra UI","Typescript"]}
         />
         <MediumProjectCard
           image={LaneAttire}

@@ -36,7 +36,9 @@ const About = () => {
           h={{ base: "200px", md: "300px" }}
           w={{ base: "200px", md: "300px" }}
           objectFit="cover"
-          border={"3px solid #2d452d24"}
+          border={"3px solid #f1fff123"}
+          borderRadius={"50px"}
+
           className="home-img"
         />
         <Box

@@ -15,6 +15,8 @@ import {
 import { RxGithubLogo } from "react-icons/rx";
 import { HiExternalLink } from "react-icons/hi";
 import { Link } from "react-router-dom";
+import { IoMdVideocam } from "react-icons/io"
+
 
 import React, { useState } from "react";
 import Carousel from "../Carousal/Carousal";
@@ -29,7 +31,7 @@ const ProjectCards = ({
   GithubLink,
   features,
   techStack,
-  description,
+  description, presentationLink
 }) => {
   const { colorMode } = useColorMode();
   // eslint-disable-next-line no-unused-vars
@@ -45,10 +47,10 @@ const ProjectCards = ({
       >
         <Flex
           borderRadius={"10px"}
-          
+
           background={colorMode === "light" ? "linear-gradient(to left,white, #48BB78)" : "black"}
           _hover={{
-background:"linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
+            background: "linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
 
           }}
           boxShadow={"rgb(0, 0, 0) 0px 5px 15px;"}
@@ -92,21 +94,9 @@ background:"linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
           }}
         >
           <Box w={"40%"} className="project-card">
-            {/* <Heading
-              fontSize={{
-                sm: "20px",
-                md: "30px",
-                lg: "40px",
-                xl: "54px",
-                "2xl": "64px",
-              }}
-              className="project-title"
-            >
-            {/* {subTitle} 
 
-            </Heading> */}
             <Heading
-            className="project-title"
+              className="project-title"
               fontSize={{
                 sm: "20px",
                 md: "25px",
@@ -163,7 +153,7 @@ background:"linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
               </Text>
             </Link>
             <Link
-              to={GithubLink}
+              to={presentationLink ? presentationLink : GithubLink}
               className="project-github-link"
               target="_blank"
             >
@@ -172,7 +162,7 @@ background:"linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
                 bgColor={colorMode === "light" ? "black" : "#48BB78"}
                 color={colorMode === "light" ? "white" : "black"}
               >
-                <RxGithubLogo />
+                {<RxGithubLogo />}
                 <Box as="span" ml={"10px"}>
                   Github
                 </Box>
@@ -180,14 +170,14 @@ background:"linear-gradient(to top,black,gray,gray, #48BB78,#48BB78)"
               </Button>
             </Link>
           </Box>
-          <Box w={"45%"} 
-           _hover={{
-            background: colorMode === "light" ? "linear-gradient(to right,#161817, black, #000000)" : "#48BB78",
-            color: colorMode === "light" ? "green" : "#48BB78",
-            
-            cursor: "pointer",
-          }}
-          marginTop={"0"}
+          <Box w={"45%"}
+            _hover={{
+              background: colorMode === "light" ? "linear-gradient(to right,#161817, black, #000000)" : "#48BB78",
+              color: colorMode === "light" ? "green" : "#48BB78",
+
+              cursor: "pointer",
+            }}
+            marginTop={"0"}
           >
             <Carousel image={image} />
           </Box>
@@ -205,6 +195,8 @@ function MediumProjectCard({
   title,
   description,
   techStack,
+  presentationLink
+
 }) {
   const { colorMode } = useColorMode();
 
@@ -301,7 +293,7 @@ function MediumProjectCard({
                 </Text>
               </Link>
               <Link
-                to={GithubLink}
+                to={presentationLink ? presentationLink : GithubLink}
                 className="project-github-link"
                 target="_blank"
               >
@@ -312,7 +304,7 @@ function MediumProjectCard({
                 >
                   <RxGithubLogo />
                   <Box as="span" ml={"10px"}>
-                    Github
+                    {presentationLink ? "Overview " : "Github"}
                   </Box>
                   <HiExternalLink />
                 </Button>
