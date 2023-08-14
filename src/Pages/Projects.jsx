@@ -92,7 +92,7 @@ const Projects = () => {
       />
       <ProjectCards
         direction={"row"}
-        deployedLink={"https://idyllic-hummingbird-265d79.netlify.app/"}
+        deployedLink={"https://lane-attire-new-fashion-store.netlify.app/"}
         image={LaneAttire}
         title={"LaneAttire"}
         subTitle={"LimerRoad Clone"}
@@ -171,7 +171,7 @@ const Projects = () => {
         />
         <MediumProjectCard
           image={LaneAttire}
-          deployedLink={"https://idyllic-hummingbird-265d79.netlify.app/"}
+          deployedLink={"https://lane-attire-new-fashion-store.netlify.app/"}
           GithubLink={"https://github.com/Sonu-Shettiyar/reach-value-9973"}
           title={"LaneAttire"}
           subTitle={"LimerRoad Clone"}
